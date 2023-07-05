@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div class="container">
+        
+        <div class="form">
+            <h2>Weight Coverter</h2>
+           <label>Pounds:</label><br>
+            <input type="number" id="in1" placeholder="00.00" oninput="pound()" maxlength="4"><br>
+            <label>Ounces:</label><br>
+            <input type="number" id="in2" placeholder="00.00" oninput="ounce()"><br>
+            <label>kilograms:</label><br>
+            <input type="number" id="in3" placeholder="00.00" oninput="kg()"> 
+<!-- //hide -->
+            <label id="four">MilliGram:</label><br>
+             <input type="number" id="in4" placeholder="00.00" oninput="mg()" maxlength="4"><br>
+             <label id="five">Grams:</label><br>
+             <input type="number" id="in5" placeholder="00.00" oninput="g()"><br>
+             
+            <button onclick="view()" id="btn">VIEW MORE</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
